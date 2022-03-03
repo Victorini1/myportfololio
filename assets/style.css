@@ -8,16 +8,17 @@
     height: 70px;
     background-color: rgb(82, 78, 78); 
     color: white; 
-    font-size: 32px; 
+    font-size: 28px; 
     z-index: 2;  
 }
 
 .image{
-    background-image: url(https://via.placeholder.com/1350x650);
+    background-image: url(./images/me.jpg);
     position:relative; 
     background-repeat: no-repeat;
     background-size:cover;
     height: 650px;
+   background-position: 0px -350px ;
     width: 100%;
     z-index: 1;
 } 
@@ -26,8 +27,8 @@
 
 .gradient{
     background-color: #64645c;
-    background-image: linear-gradient(#64645c, #eeeeee);
-    background-image: radial-gradient(#64645c, #eeeeee);
+    background-image: linear-gradient(#72e3e7, #f1a542);
+    background-image: radial-gradient(#72e3e7, #f1a542);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -136,5 +137,6 @@ html{
     .image{
         width: 100%;
         height: 650px;
+        background-position: 0px;
     }
 }
