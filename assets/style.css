@@ -9,7 +9,7 @@
     background-color: rgb(82, 78, 78); 
     color: white; 
     font-size: 28px; 
-    z-index: 2;  
+    z-index: 4;  
 }
 
 .image{
@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     height: 650px;
-   background-position: 0px -350px ;
+   background-position: 0px -500px ;
     width: 100%;
     z-index: 1;
 } 
@@ -101,6 +101,7 @@ html{
     padding-top: 50px;
     height: 200px;
 }
+
 
 .content ul{
     display: flex;

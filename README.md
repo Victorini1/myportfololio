@@ -7,6 +7,7 @@ In this assignment I was meant to build a portfolio page purely by using some ne
 For some building inspiration I used a couple of webisites for reference:
 
 [Sean Halpin](https://www.seanhalpin.design/)
+
 [ColorLib](https://preview.colorlib.com/#alime)
 
 
