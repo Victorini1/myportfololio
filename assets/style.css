@@ -27,14 +27,14 @@
 
 .gradient{
     background-color: #64645c;
-    background-image: linear-gradient(#72e3e7, #f1a542);
-    background-image: radial-gradient(#72e3e7, #f1a542);
+    background-image: linear-gradient(#f0ecec, #d3cbcb);
+    background-image: radial-gradient(#f0ecec, #d3cbcb);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    
 }
 
 #me h1{
@@ -53,6 +53,7 @@
     left: 0px;
     z-index: 3;
     padding-left: 5%;
+    padding-bottom: 10px;
 }
 
 .navbar ul{
@@ -130,8 +131,13 @@ html{
         margin-left: 0%;
         width: 100%;
     }
+
+    .navbar {
+        font-size: 18px;       
+    }
     .navbar ul{
         flex-shrink: 2;
+        gap: 20px;
 
     }
     .image{
@@ -139,4 +145,24 @@ html{
         height: 650px;
         background-position: 0px;
     }
+
+    #me h1{
+        font-size: 28px;
+    }
+
+   #me h2{
+        font-size: 12px;
+    }
+    .gradient{
+        background-color: #64645c;
+        background-image: linear-gradient(#c4baba, #ffffff);
+        background-image: radial-gradient(#c4baba, #ffffff);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } 
+    
+    
 }
