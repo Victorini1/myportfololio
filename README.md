@@ -13,7 +13,7 @@ For some building inspiration I used a couple of webisites for reference:
 
 ## Screenshot of Final Page
 
-[Portfolio Sreenshot](./assets/images/finalscreenshot.png)
+![Portfolio Sreenshot](./assets/images/finalscreenshot.png)
 
 ## Link to Page
 
