@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     height: 650px;
-   background-position: 0px -500px ;
+    background-position: 0 -500px;
     width: 100%;
     z-index: 1;
 } 
@@ -81,7 +81,7 @@ html{
 }
 
 .bannera, .bannerb, .bannerc{
-  height: 350px;
+  height: 400px;
   width: 50%;
   background-color: gray; 
   margin-top: 10px;
@@ -99,7 +99,7 @@ html{
 
 .bannerc{
     padding-top: 50px;
-    height: 200px;
+    height: 350px;
 }
 
 
@@ -165,5 +165,9 @@ html{
         -webkit-text-fill-color: transparent;
     } 
     
-    
+    /* @media screen and (min-width: 1700px){
+        .image{
+            background-position: -1700px;
+        } */
+
 }
